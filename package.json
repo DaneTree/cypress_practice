@@ -1,0 +1,27 @@
+{
+  "name": "cypress_practice",
+  "version": "1.0.0",
+  "description": "I am learning Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress": "cypress open",
+    "start:run": "cypress run",
+    "start:chrome": "cypress run --browser chrome",
+    "start:firefox": "cypress run --browser firefox",
+    "start:edge": "cypress run --browser edge"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaneTree/cypress_practice.git"
+  },
+  "author": "Dane M Goodman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaneTree/cypress_practice/issues"
+  },
+  "homepage": "https://github.com/DaneTree/cypress_practice#readme",
+  "devDependencies": {
+    "cypress": "^8.0.0"
+  }
+}
